@@ -1,0 +1,60 @@
+ ul 
+				  {
+						font: 14px Verdana, Geneva, sans-serif;
+						text-align: center; 
+				  }
+
+				ul li 
+				{
+						display : inline-block;
+						width : 250px;
+						height: 130px; 
+						margin-right: 10px;
+						margin-bottom: 10px;
+						background: #E76D13;
+						vertical-align: top;
+						text-align: center;
+						line-height: normal;
+
+						
+				}
+				.one
+				{
+						display : inline-block;
+						width : 250px;
+						height: 130px;
+						margin-bottom: 10px;
+					  background:  #FF0000;
+						vertical-align: top;
+						text-align: center;
+						line-height: normal;
+
+						
+				}
+				.two
+				{
+						display : inline-block;
+						width : 250px;
+						height: 130px;
+						margin-bottom: 10px;
+					  background:   #808080;
+						vertical-align: top;
+						text-align: center;
+						line-height: normal;
+
+						
+				}
+				.three
+				{
+						display : inline-block;
+						width : 250px;
+						height: 130px;
+						margin-bottom: 10px;
+					  background:  #556B2F;
+						vertical-align: top;
+						text-align: center;
+						line-height: normal;
+
+						
+				}
+				
