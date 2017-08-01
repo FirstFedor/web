@@ -3,8 +3,7 @@ var classList = document.body.classList;
 var arrColors = ['one', 'two', 'three', 'four'];
 var element = document.getElementById('ul');
 var fragment = document.createDocumentFragment();
-var arrColorss = ['one', 'two', 'three', 'four'];
-/* !CR Дублирование переменной arrColors, зачем */
+
 
 var MassClass = []; //массив классов блоков(с которыми произошли изменения в процессе выполнения программы)
 // при нажатие на блок в массив каждый раз сохраняется 4 элемента
@@ -12,7 +11,7 @@ var MassClass = []; //массив классов блоков(с которым
 var MassIndexChange = []; //массив индексов блоков (с которыми произошли изменения в процессе выполнения программы)
 var CountElementInClassMass = 0; //счетчик, считает классов , записанных в массив MassClass
 
-/* !CR Нужно давать осмысленные имена даже счетчикам */
+
 
 element.onclick = function (event) {
 	event = event || window.event;
@@ -47,9 +46,7 @@ var next = 1;
 var k = 0; //методы undo и redo связаны посредством счетчика(k), (при вызове undo счетчик увеличивается)
 //при вызове redo при помощи общего счетчика определяем элемент , который был изменен последним (и уменьшаем счетчик на 1)
 
- this.sayHi = function() {
-    alert( phrase + ", " + getFullName() ); // использование
-  };
+ 
 
 
 this.redo =function () //вперед
