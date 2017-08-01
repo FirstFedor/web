@@ -129,7 +129,7 @@ function highlight(node, rnd) //Изменение цвета
 	while (CountAllBlock!=massLi.length-1 && massLi[CountAllBlock].getBoundingClientRect().top == massLi[++CountAllBlock].getBoundingClientRect().top)
 		blokCount++; //определяем количество блоков(смотрим сколько блоков на одинаковом расстоянии от верхушки страницы)
 	selectedLi = node;
-	while (selectedLi.classList[0] === arrColorss[rnd])
+	while (selectedLi.classList[0] === arrColors[rnd])
 		rnd = Math.floor(Math.random() * (arrColors.length - 1)); //чтобы блок не перекрашивался в тот же самый цвет
 
 	var index = findIndex(node);
@@ -139,7 +139,7 @@ function highlight(node, rnd) //Изменение цвета
 	{ //если находим , то меняем цвет
 		if ((i != index)) {
 			if (massLi[i].classList[0] === selectedLi.classList[0]) {
-				while (selectedLi.classList[0] === arrColorss[rnd])
+				while (selectedLi.classList[0] === arrColors[rnd])
 					rnd = Math.floor(Math.random() * (arrColors.length - 1)); //
 
 				MassIndexChange[CountElementInClassMass] = i; //для кнопки undo
